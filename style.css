@@ -27,7 +27,6 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#1f242d;
     z-index:100;
 }
 
@@ -434,6 +433,7 @@ body{
         width:90%;
     }
 }
+
 
 
 
