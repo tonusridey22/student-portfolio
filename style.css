@@ -10,10 +10,11 @@
 html{
     scroll-behavior:smooth;
 }
-
+ 
 body{
-    background:#1f242d;
-    color:#fff;
+   
+    background:linear-gradient(135deg,#272525,#9fadd4,#597d8bcb);
+    color:#f7eef0;
 }
 
 
@@ -33,12 +34,12 @@ body{
 .logo{
     font-size:28px;
     font-weight:700;
-    color:#7cf03d;
+    color:#ffffff;
     text-decoration:none;
 }
 
 .navbar ul{
-    display:flex;
+    display:flex;  
 }
 
 .navbar ul li{
@@ -53,8 +54,9 @@ body{
 }
 
 .navbar ul li a:hover{
-    color:#7cf03d;
+    color:#ededf391;
 }
+
 
 .home{
     display:flex;
@@ -75,7 +77,7 @@ body{
 .home-info h2{
     font-size:28px;
     margin:10px 0;
-    color:#7cf03d;
+    color:#ff8787b7;
 }
 
 .home-info p{
@@ -86,7 +88,7 @@ body{
 
 .btn{
     padding:10px 25px;
-    background:#7cf03d;
+    background:#485c5f;
     border-radius:30px;
     color:#1f242d;
     font-weight:600;
@@ -96,8 +98,8 @@ body{
 
 .btn:hover{
     background:transparent;
-    border:2px solid #7cf03d;
-    color:#7cf03d;
+    border:2px solid #599ea3;
+    color:#599ea3;
 }
 
 
@@ -108,17 +110,17 @@ body{
 .sci a{
     display:inline-flex;
     padding:8px;
-    border:2px solid #7cf03d;
+    border:2px solid #f0f0f0;
     border-radius:50%;
     font-size:18px;
-    color:#7cf03d;
+    color:#ffffff;
     margin-right:10px;
     transition:.3s;
 }
 
 .sci a:hover{
-    background:#7cf03d;
-    color:#1f242d;
+    background:#263483;
+    color:#8697b4;
 }
 
 
@@ -189,16 +191,21 @@ body{
 }
 
 .about h2{
-    font-size:40px;
-    margin-bottom:20px;
-    color:#7cf03d;
+    font-size:42px;
+    margin-bottom:25px;
+    color:#050838;
+    font-weight:700;
 }
 
+
 .about p{
-    max-width:700px;
+    max-width:750px;
     margin:auto;
     margin-bottom:40px;
-    color:#ccc;
+    color:#ffffff;
+    font-size:20px;
+    line-height:1.8;
+    letter-spacing:0.5px;
 }
 
 .education-container{
@@ -230,29 +237,37 @@ body{
 .skills h2{
     font-size:40px;
     margin-bottom:40px;
-    color:#7cf03d;
+    color:#050838;
 }
 
 .skill-container{
     display:flex;
+     flex-wrap:wrap;
     justify-content:center;
-    gap:25px;
-    flex-wrap:wrap;
+    gap:30px;
+   
 }
+
 
 .skill-card{
     background:#2b313c;
-    padding:25px;
-    width:250px;
-    border-radius:12px;
+    padding:20px;
+    width:280px;
+    border-radius:20px;
     transition:.3s;
+    text-align:center;
 }
 
 .skill-card:hover{
     transform:translateY(-8px);
     box-shadow:0 0 15px #7cf03d44;
 }
-
+@media(max-width:768px){
+    .skill-row{
+        flex-direction: column;
+        gap:20px;
+    }
+}
 
 .projects{
     min-height:100vh;
@@ -263,7 +278,7 @@ body{
 .projects h2{
     font-size:40px;
     margin-bottom:40px;
-    color:#7cf03d;
+    color:#050838;
 }
 
 .projects-container{
@@ -324,10 +339,7 @@ body{
     margin-bottom:15px;
 }
 
-.project-card .btn{
-    font-size:14px;
-    padding:8px 20px;
-}
+
 
 
 @media(max-width:900px){
@@ -340,13 +352,17 @@ body{
     }
 }
 
-/* ================= CONTACT ================= */
+
 
 .contact{
     min-height:100vh;
-    padding:120px 9%;
-    background:#585a5c20;
+    padding: 120px 9%;
     text-align:center;
+}
+.contact h2{
+    font-size:40px;
+    margin-bottom:40px;
+    color:#050838;
 }
 
 .contact-form{
@@ -362,8 +378,20 @@ body{
     border:none;
     border-radius:8px;
 }
+.btn{
+    background-color:#050838;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
 
-/* ================= RESPONSIVE ================= */
+.btn:hover{
+    background-color:#0a0f6d;
+}
+
 
 @media(max-width:900px){
     .home{

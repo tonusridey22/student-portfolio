@@ -7,6 +7,9 @@
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+
+   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -22,9 +25,12 @@
 </nav>
 
 <section class="home" id="home">
-    <div class="home-info">
+    <div class="home-info" data-aos="fade-right">
+
         <h1>Tonusri Dey Prome</h1>
+
         <h2>I'm a CSE Student</h2>
+
         <p>
             I study Computer Science and Engineering (CSE) at Metropolitan University, Sylhet.
             I am currently learning Web Development using HTML and CSS.
@@ -38,9 +44,10 @@
             <a href="#"><i class='bx bxl-youtube'></i></a>
             <a href="#"><i class='bx bxl-twitter'></i></a>
         </div>
+
     </div>
 
-    <div class="home-img">
+    <div class="home-img" data-aos="fade-left">
         <div class="img-box">
             <div class="img-item">
                 <img src="home1.jpg" alt="">
@@ -49,7 +56,8 @@
     </div>
 </section>
 
-<section class="about" id="about">
+<section class="about" id="about" data-aos="fade-up">
+
     <h2 class="section-title">About Me</h2>
 
     <p class="about-text">
@@ -59,88 +67,116 @@
     </p>
 
     <div class="education-container">
-        <div class="education-box">
+
+        <div class="education-box" data-aos="zoom-in">
             <h3>BSc in CSE</h3>
             <p>Metropolitan University, Sylhet</p>
             <p>58th Batch</p>
         </div>
 
-        <div class="education-box">
+        <div class="education-box" data-aos="zoom-in" data-aos-delay="200">
             <h3>HSC</h3>
             <p>Sylhet Government College</p>
             <p>GPA: 5.00</p>
         </div>
 
-        <div class="education-box">
+        <div class="education-box" data-aos="zoom-in" data-aos-delay="400">
             <h3>SSC</h3>
             <p>Border Guard Public School & College</p>
             <p>GPA: 4.61</p>
         </div>
+
     </div>
 </section>
 
 <section class="skills" id="skills">
-    <h2 class="section-title">My Skills</h2>
+
+    <h2 class="section-title" data-aos="fade-up">My Skills</h2>
 
     <div class="skill-container">
-        <div class="skill-card">
+
+        <div class="skill-card" data-aos="flip-left">
             <h3>HTML</h3>
             <p>Structure and semantic webpage design.</p>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="150">
             <h3>CSS</h3>
             <p>Responsive and modern website styling.</p>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
             <h3>Responsive Design</h3>
             <p>Mobile friendly layout design.</p>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="450">
+
             <h3>Basic C Programming</h3>
             <p>Problem solving and logic building.</p>
         </div>
+
+    
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="600">
+            <h3>Basic Java</h3>
+            <p>Object-Oriented Programming basics.</p>
+        </div>
+
     </div>
+
 </section>
 
 <section class="projects" id="projects">
-    <h2>Projects</h2>
+
+    <h2 class="section-title" data-aos="fade-up">Projects</h2>
+
     <div class="projects-container">
-        <div class="project-card">
+
+        <div class="project-card" data-aos="fade-up">
             <h3>Digital Clock (Java)</h3>
             <p>An OOP project implementing a functional digital clock using Java concepts.</p>
-
-            
         </div>
 
-        <div class="project-card">
-            <h3>Local Homemade Products (DBMS)</h3>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <h3>Local Handmade Products (DBMS)</h3>
             <p>A database project managing products, orders, and customer info using SQL.</p>
-          
         </div>
 
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
             <h3>Student Portfolio (Web)</h3>
             <p>A personal portfolio website showcasing my skills, projects, and contact info.</p>
-        
         </div>
+
     </div>
+
 </section>
 
-<section class="contact" id="contact">
+<section class="contact" id="contact" data-aos="fade-up">
+
     <h2 class="section-title">Contact Me</h2>
 
     <form class="contact-form">
+
         <input type="text" placeholder="Your Name" required>
+
         <input type="email" placeholder="Your Email" required>
+
         <textarea rows="5" placeholder="Your Message"></textarea>
+
         <button type="submit" class="btn">Send Message</button>
+
     </form>
+
 </section>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1200,
+once:true
+});
+</script>
+
 </body>
-
 </html>
-
