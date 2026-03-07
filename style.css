@@ -411,3 +411,25 @@ body{
         width:90%;
     }
 }
+.footer{
+    background:#29364d;
+    padding:20px 5%;
+    text-align:center;
+}
+
+.footer-content p{
+    color:#ccc;
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+.footer-icons a{
+    color:#295186;
+    font-size:20px;
+    margin:0 10px;
+    transition:.3s;
+}
+
+.footer-icons a:hover{
+    color:#fff;
+}
