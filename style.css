@@ -55,13 +55,15 @@ body{
 
     .navbar ul {
         flex-direction: column;     
-        width: 100%;                
+        width: 100%;  
+        display: flex;              
         padding: 10px 0;
         text-align: center;
+        gap: 15px;
     }
 
     .navbar ul li{
-        margin: 10px 0;            
+        margin-left: 0;            
     }
 }
 .navbar ul li a{
