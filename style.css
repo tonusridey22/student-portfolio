@@ -43,10 +43,22 @@ body{
 }
 
 .navbar ul li{
-    list-style:none;
-    margin-left:30px;
+    list-style: none;
+    margin-left: 30px;
 }
 
+@media (max-width:768px){
+    .navbar ul li{
+        margin-left: 0;   
+    }
+
+    .navbar ul{
+        flex-direction: column; 
+        width: 100%;              
+        padding: 10px 0;
+    }
+}
+ 
 .navbar ul li a{
     color:#fff;
     text-decoration:none;
