@@ -58,7 +58,6 @@ body{
         width: 100%;  
         display: flex;              
         text-align: center;
-        gap: 10px;
     }
 
     .navbar ul li{
@@ -434,6 +433,7 @@ body{
         width:90%;
     }
 }
+
 
 
 
