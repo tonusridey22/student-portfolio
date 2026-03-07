@@ -55,7 +55,7 @@ body{
 
     .navbar ul {
         flex-direction: column;     
-        width: 100%;  
+        width: 80%;  
         display: flex;              
         text-align: center;
     }
@@ -433,6 +433,7 @@ body{
         width:90%;
     }
 }
+
 
 
 
